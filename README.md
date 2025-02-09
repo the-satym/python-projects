@@ -1,2 +1,3 @@
 # python-projects
-this repo is for personal use and will be private
+this repo is for showcasing my python projects
+```
