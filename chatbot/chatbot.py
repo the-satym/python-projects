@@ -31,5 +31,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     msg.submit(chat_with_gemini, [msg, state], [chatbot, state, msg])
     clear.click(lambda: ([], []), None, [chatbot, state])
 
-# 🚀 Launch
 demo.launch()
