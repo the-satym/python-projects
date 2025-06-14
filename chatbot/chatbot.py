@@ -1,3 +1,8 @@
+#modules to download
+#pip install gradio google-generativeai
+#pip install google-generativeai
+
+
 import gradio as gr
 import google.generativeai as genai
 
