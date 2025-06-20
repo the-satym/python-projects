@@ -1,3 +1,8 @@
+#modules to download
+#pip install gradio google-generativeai
+#pip install google-generativeai
+
+
 import gradio as gr
 import google.generativeai as genai
 
@@ -31,5 +36,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     msg.submit(chat_with_gemini, [msg, state], [chatbot, state, msg])
     clear.click(lambda: ([], []), None, [chatbot, state])
 
-# 🚀 Launch
 demo.launch()
